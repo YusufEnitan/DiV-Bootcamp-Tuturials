@@ -1,0 +1,103 @@
+
+
+#navigation {
+    background-color: black;
+    justify-content: space-around;
+    display: flex;
+    height: 10%;
+}
+
+#navigation a {
+    text-decoration: white;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;  
+    text-align: center;
+}
+
+#navigation a:hover{
+    transform: scale(1.7);
+    transition: transform 6s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+.center{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+#single-item-1{
+    background-color: white;
+    height: 500px;
+    margin-top: 30px;
+}
+
+
+ 
+#links{   
+    justify-content: space-evenly;
+    display: flex;
+}
+
+.shelf{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.shelf-2{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.shelf-3{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.shelf-4{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.shop-item{
+    margin-top: 30px;
+}
+
+.shop-item >img {
+    height: 350px;
+    width: 700px;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#footer{
+text-decoration: none;
+color: #bbb;
+}
+
+.ft-main{
+    padding: 1.25px 1.87px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.ft-main-item{
+    padding: 1.25px;
+    min-width: 12.5px;
+}
+
+#links {
+    min-height: 100%;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    grid-template-columns: 100%;
+}
